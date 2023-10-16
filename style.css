@@ -1,0 +1,113 @@
+*,
+*::before,
+*::after{
+    margin: 0;
+    padding: 0;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+:root{
+    --bg-color: hsl(234, 29%, 20%);
+    --successbg-color:hsl(235, 18%, 26%);
+    --text-color: hsl(231, 7%, 60%);
+    --mainbg-color: hsl(0, 0%, 100%);
+    /* fonts */
+    --font400: 'Roboto', sans-serif;
+}
+
+body{
+    font-family: var(--font400);
+    font-weight: 800;
+    background-color: var(--bg-color);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    min-height: 100vh;
+}
+
+.container_box{
+    background-color: var(--mainbg-color);
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    border: none;
+    border-radius: 30px;
+    width: 800px;
+}
+
+.box{
+    width: 50%;
+    padding: 5rem 20px 4.5rem 2rem;
+}
+
+.fh1{
+    font-family: var(--font700);
+    font-size: 3.2rem;
+    color: var(--bg-color);
+}
+
+.fsecp{
+    color: var(--successbg-color);
+    padding-top: 2rem;
+    padding-bottom: 15px;
+    line-height: 20px;
+}
+
+.list{
+    display: flex;
+    flex-direction: row;
+    padding-top: 10px;
+}
+
+.list-p{
+    padding-left: 20px;
+    font-size: 15px;
+}
+
+.subform{
+    display: block;
+    padding-bottom: 20px;
+    padding-top: 2.2rem;
+}
+
+.email{
+    font-size: 1rem;
+    width: 21rem;
+    height: 2.8rem;
+    padding-left: 26px;
+    border: 1.7px solid hsl(231, 4%, 65%);
+    border-radius: 10px;
+    outline: none;
+}
+
+.sub_btn{
+    font-size: 1rem;
+    color: var(--mainbg-color);
+    background-color: var(--bg-color);
+    width: 21rem;
+    height: 2.8rem;
+    padding-left: 26px;
+    border: 1.7px solid hsl(231, 4%, 65%);
+    border-radius: 10px;
+    cursor: pointer;
+    outline: none;
+}
+
+.sub_btn:hover{
+    color: var(--mainbg-color);
+    background-color: hsl(4, 100%, 67%);
+}
+
+.img_svg{
+    width: 24rem;
+    height: 32.5rem;
+    padding-top: 20px;
+    padding-right: 18px;
+    /* padding: 20px 20px 20px 1px; */
+}
+
+.hide{
+    display: none;
+}

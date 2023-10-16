@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="author" title="Nzube Edwin Ebubedike">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Newsletter sign-up</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Barlow:wght@600&family=Courgette&family=Fraunces:opsz,wght@9..144,700;9..144,900&family=Josefin+Sans:wght@300&family=Kalam&family=Oleo+Script:wght@700&family=Quicksand&family=Red+Hat+Display:wght@500;700;900&family=Roboto:ital,wght@1,700&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Barlow:wght@600&family=Courgette&family=Fraunces:opsz,wght@9..144,700;9..144,900&family=Josefin+Sans:wght@300&family=Kalam&family=Oleo+Script:wght@700&family=Quicksand&family=Red+Hat+Display:wght@500;700;900&family=Roboto&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css"/>
+    <link rel="stylesheet" href="mobile.css"/>
+    <link rel="shortcut icon" href="./images/favicon-32x32.png" type="image/x-icon">
+</head>
+
+<body>
+
+    <main class="container_box">
+
+        <div class="box">
+            <section>
+                <h1 class="fh1">Stay updated!</h1>
+                <p class="fsecp">Join 60,000+ product managers receiving monthly updates on:</p>
+            </section>
+
+            <section>
+                    <div class="list">
+                    <img src="./images/icon-list.svg">
+                    <p class="list-p">Product discovery and building what matters</p>
+                    </div>
+
+                    <div class="list">
+                        <img src="./images/icon-list.svg">
+                        <p class="list-p">Measuring to ensure updates are a success</p>
+                    </div>
+
+                    <div class="list">
+                        <img src="./images/icon-list.svg">
+                        <p class="list-p">And much more!</p>
+                    </div>
+            </section>
+
+            <form class="subform">
+                <label for="" class="email-text">Email address</label><br>
+                <input type="email" class="email" placeholder="email@company.com" required/>
+                <button class="sub_btn" name="button" type="submit">Subscribe to monthly newsletter</button>
+            </form>
+
+        </div>
+
+        <div>
+        <img class="img_svg" src="./images/illustration-sign-up-desktop.svg">
+        </div>
+    </main>
+
+    <main class="maincontainer hide">
+        <section>
+            <img src="./images/icon-success.svg">
+            <h1 class="sh1">Thanks for subscribing!</h1>
+        </section>
+
+        <section>
+            <p class="confirm-text">A confirmation email has been sent to <strong>ash@loremcompany.com.</strong> Please
+                open it and click the button inside to confirm your subscription.
+            </p>
+        </section>
+
+        <form class="disform">
+            <button class="dis_btn">Dismiss message</button>
+        </form>
+    </main>
+    <script src="java.js"></script>
+</body>
+</html>

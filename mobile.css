@@ -1,0 +1,126 @@
+@media (max-width:768px) {
+
+.container_box{
+    display: flex;
+    flex-direction: column-reverse;
+    border: none;
+    border-radius: 30px;
+    width: 90%;
+}
+
+.box{
+    width: 100%;
+}
+
+.fh1{
+    font-family: var(--font700);
+    font-size: 3.2rem;
+    color: var(--bg-color);
+}
+
+.fsecp{
+    color: var(--successbg-color);
+    padding-top: 2rem;
+    padding-bottom: 15px;
+    line-height: 20px;
+}
+
+.list{
+    display: flex;
+    flex-direction: row;
+    padding-top: 10px;
+}
+
+.list-p{
+    padding-left: 20px;
+}
+
+.subform{
+    display: block;
+    padding-bottom: 20px;
+    padding-top: 2.2rem;
+}
+
+.email{
+    font-size: 1rem;
+    width: 21rem;
+    height: 2.8rem;
+    padding-left: 26px;
+    border: 1.7px solid hsl(231, 4%, 65%);
+    border-radius: 10px;
+    outline: none;
+}
+
+.sub_btn{
+    font-size: 1rem;
+    color: var(--mainbg-color);
+    background-color: var(--bg-color);
+    width: 21rem;
+    height: 2.8rem;
+    padding-left: 26px;
+    border: 1.7px solid hsl(231, 4%, 65%);
+    border-radius: 10px;
+    cursor: pointer;
+    outline: none;
+}
+
+.sub_btn:hover{
+    color: var(--mainbg-color);
+    background-color: hsl(4, 100%, 67%);
+}
+
+.img_svg{
+    width: 100%;
+    padding: 20px 20px 20px 0px;
+}
+
+/* second styling */
+
+.maincontainer{
+    background-color: var(--mainbg-color);
+    width: 35rem;
+    height: 32rem;
+    display: flex;
+    flex-direction: column;
+    padding: 4.4rem 4rem 3rem 5rem;
+    border: none;
+    border-radius: 24px;
+    margin-top: 9rem;
+}
+
+.hide{
+    display: none;
+}
+
+.sh1{
+    font-size: 3rem;
+    margin-top: 2rem;
+}
+
+.confirm-text{
+    font-size: 17px;
+    line-height: 1.8rem;
+    font-weight: 400;
+    padding-top: 30px;
+}
+
+.dis_btn{
+    font-size: 1rem;
+    color: var(--mainbg-color);
+    background-color: var(--bg-color);
+    width: 25rem;
+    height: 2.8rem;
+    padding-top: 7px;
+    padding-bottom: 7px;
+    margin-top: 2rem;
+    border: 1.7px solid hsl(231, 4%, 65%);
+    border-radius: 10px;
+    cursor: pointer;
+    outline: none;
+}
+
+.dis_btn:hover{
+    color: var(--mainbg-color);
+    background-color: hsl(4, 100%, 67%);
+}
+}
